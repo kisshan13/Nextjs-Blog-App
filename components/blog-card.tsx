@@ -12,17 +12,17 @@ import Tag from "./ui/tag";
 
 export default function BlogCard({ user, blog, className, ...props }: BlogPostProps) {
     return (
-        <div className={cn([' my-8 block', className])}>
-            <div className={cn([" flex flex-wrap-reverse justify-center md:justify-between gap-4  ", className])} {...props}>
+        <div className={cn([' my-11 block', className])}>
+            <div className={cn([" flex flex-wrap-reverse justify-center md:justify-normal xl:justify-between gap-4  ", className])} {...props}>
                 <div>
                     <UserProfileSML image={user.image} name={user.name} />
                     <div className="blog-info mt-4">
                         <Link href={blog.link}>
-                            <Heading variants="big/normal">
+                            <Heading variants="big/normal" className=" max-w-3xl ">
                                 {blog.title}
                             </Heading>
                         </Link>
-                        <Text variant="large/normal">
+                        <Text variant="large/normal" className=" max-w-2xl">
                             {blog.description}
                         </Text>
 

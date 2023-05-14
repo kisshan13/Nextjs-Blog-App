@@ -1,0 +1,22 @@
+{
+    "blogs" : [
+        {
+            "id" : "blog-001",
+            "structure" : {
+                "top" : [
+                    "title", "tags", "intro", "image", "intro"
+                ],
+
+                "main": [
+                ]
+            },
+            "user": {
+                "name": "Tapajyoti Bose",
+                "image": "https://res.cloudinary.com/practicaldev/image/fetch/s--bzrfhCEs--/c_fill,f_auto,fl_progressive,h_90,q_auto,w_90/https://dev-to-uploads.s3.amazonaws.com/uploads/user/profile_image/530414/941751d8-06b8-41bd-9de9-6ea056b7199f.png"
+            },
+            "blog" : {
+                "title" : ""
+            }
+        }
+    ]
+}

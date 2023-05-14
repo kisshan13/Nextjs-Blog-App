@@ -27,10 +27,17 @@ export interface TagProps extends DivI{
     className? : string
 }
 
+export interface StructureProps extends DivI {
+    structure: StructureType,
+    className?: string
+}
+
 type User = {
     name: string,
     image: string
 }
+
+export type StructureType = 'title' | 'tags' | 'image' | 'intro'
 
 type Blog = {
     title: string,

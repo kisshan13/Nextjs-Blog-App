@@ -9,7 +9,7 @@
                     "typescript"
                 ],
                 "description": "It's simply typescript hahahhahahahah",
-                "link" : "/blog-001"
+                "link" : "blog-001"
             },
             "user": {
                 "name": "Tapajyoti Bose",
@@ -19,18 +19,19 @@
 
         {
             "blog": {
-                "title": "7 Secret TypeScript Tricks Pros Use 😎🤫",
-                "image": "https://res.cloudinary.com/practicaldev/image/fetch/s--fRoiBBgn--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/ktesxigi964m1u8lyqi0.png",
+                "title": "Building an Innovative AI Tool to Revolutionize GitHub Issues Management 🦾",
+                "image": "https://res.cloudinary.com/practicaldev/image/fetch/s--pA06rS8Y--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/op878vdqdufiwjk1p5jc.png",
                 "tags": [
-                    "javascript",
-                    "typescript"
+                    "github",
+                    "github-actions",
+                    "ai-ml"
                 ],
-                "description": "It's simply typescript hahahhahahahah",
-                "link" : "/blog-001"
+                "description": "I have developed an innovative GitHub Action...",
+                "link" : "blog-002"
             },
             "user": {
-                "name": "Tapajyoti Bose",
-                "image": "https://res.cloudinary.com/practicaldev/image/fetch/s--bzrfhCEs--/c_fill,f_auto,fl_progressive,h_90,q_auto,w_90/https://dev-to-uploads.s3.amazonaws.com/uploads/user/profile_image/530414/941751d8-06b8-41bd-9de9-6ea056b7199f.png"
+                "name": "Krisztián Maurer",
+                "image": "https://res.cloudinary.com/practicaldev/image/fetch/s--u_93vNI5--/c_fill,f_auto,fl_progressive,h_50,q_auto,w_50/https://dev-to-uploads.s3.amazonaws.com/uploads/user/profile_image/894671/ea9eea74-8db2-44de-be91-21dc47ed70ca.jpg"
             }
         }
     ]
