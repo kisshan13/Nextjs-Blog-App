@@ -1,0 +1,37 @@
+{
+    "blogs": [
+        {
+            "blog": {
+                "title": "7 Secret TypeScript Tricks Pros Use 😎🤫",
+                "image": "https://res.cloudinary.com/practicaldev/image/fetch/s--fRoiBBgn--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/ktesxigi964m1u8lyqi0.png",
+                "tags": [
+                    "javascript",
+                    "typescript"
+                ],
+                "description": "It's simply typescript hahahhahahahah",
+                "link" : "/blog-001"
+            },
+            "user": {
+                "name": "Tapajyoti Bose",
+                "image": "https://res.cloudinary.com/practicaldev/image/fetch/s--bzrfhCEs--/c_fill,f_auto,fl_progressive,h_90,q_auto,w_90/https://dev-to-uploads.s3.amazonaws.com/uploads/user/profile_image/530414/941751d8-06b8-41bd-9de9-6ea056b7199f.png"
+            }
+        },
+
+        {
+            "blog": {
+                "title": "7 Secret TypeScript Tricks Pros Use 😎🤫",
+                "image": "https://res.cloudinary.com/practicaldev/image/fetch/s--fRoiBBgn--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/ktesxigi964m1u8lyqi0.png",
+                "tags": [
+                    "javascript",
+                    "typescript"
+                ],
+                "description": "It's simply typescript hahahhahahahah",
+                "link" : "/blog-001"
+            },
+            "user": {
+                "name": "Tapajyoti Bose",
+                "image": "https://res.cloudinary.com/practicaldev/image/fetch/s--bzrfhCEs--/c_fill,f_auto,fl_progressive,h_90,q_auto,w_90/https://dev-to-uploads.s3.amazonaws.com/uploads/user/profile_image/530414/941751d8-06b8-41bd-9de9-6ea056b7199f.png"
+            }
+        }
+    ]
+}
