@@ -1,13 +1,13 @@
 import { cn } from "@/lib/utils";
-import UserProfileSML from "./user-profile-sml";
+import UserProfileSML from "../user-profile-sml";
 
-import Text from "./ui/text";
-import Heading from "./ui/heading";
+import Text from "../ui/text";
+import Heading from "../ui/heading";
 import Image from "next/image";
 import Link from "next/link";
 
-import { BlogPostProps } from "./interfaces";
-import Tag from "./ui/tag";
+import { BlogPostProps } from "../interfaces";
+import Tag from "../ui/tag";
 
 
 export default function BlogCard({ user, blog, className, ...props }: BlogPostProps) {

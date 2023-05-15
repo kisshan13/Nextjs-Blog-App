@@ -22,13 +22,13 @@ export interface BlogPostProps extends DivI {
     blog: Blog
 }
 
-export interface TagProps extends DivI{
+export interface TagProps extends DivI {
     tag: string,
-    className? : string
+    className?: string
 }
 
-export interface StructureProps extends DivI {
-    structure: StructureType,
+export interface BlogProps extends DivI {
+    headers: ComponentStructure[],
     className?: string
 }
 
@@ -37,7 +37,18 @@ type User = {
     image: string
 }
 
-export type StructureType = 'title' | 'tags' | 'image' | 'intro'
+type ComponentStructure = {
+    component: ComponentType,
+    content: string
+}
+
+type ComponentType =
+    'title' |
+    'img' |
+    'tags' |
+    'text' |
+    'sub-heading' |
+    'list'
 
 type Blog = {
     title: string,
