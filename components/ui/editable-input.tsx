@@ -4,6 +4,6 @@ import { InputI } from "../interfaces";
 
 export default function InputEditable({ className, ...props }: InputI) {
     return (
-        <Input className={cn([" border-opacity-25 active:caret-black focus-visible:border-none focus-visible:border-0", className])} {...props} />
+        <Input className={cn([" bg-white xl:w-auto w-52 border-opacity-25 border-2 active:caret-black", className])} {...props} />
     )
 }
