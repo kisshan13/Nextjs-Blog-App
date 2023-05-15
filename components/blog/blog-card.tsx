@@ -9,7 +9,6 @@ import Link from "next/link";
 import { BlogPostProps } from "../interfaces";
 import Tag from "../ui/tag";
 
-
 export default function BlogCard({ user, blog, className, ...props }: BlogPostProps) {
     return (
         <div className={cn([' my-11 block', className])}>

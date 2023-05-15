@@ -27,6 +27,10 @@ export interface TagProps extends DivI {
     className?: string
 }
 
+export interface BlogContainerProps extends DivI {
+    className? : string,
+}
+
 export interface BlogProps extends DivI {
     headers: ComponentStructure[],
     className?: string
@@ -39,10 +43,10 @@ type User = {
 
 type ComponentStructure = {
     component: ComponentType,
-    content: string
+    content: string | string[]
 }
 
-type ComponentType =
+export type ComponentType =
     'title' |
     'img' |
     'tags' |

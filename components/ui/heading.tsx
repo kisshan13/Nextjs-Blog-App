@@ -7,7 +7,8 @@ const headingStyles = cva([], {
         size: {
             small: 'text-sm',
             medium: 'text-md',
-            big: 'text-3xl'
+            big: 'text-3xl',
+            tall: 'text-4xl'
         },
 
         weight: {
@@ -31,7 +32,7 @@ export default function Heading({ variants, className, children, ...props }: Hea
     let [size, weight] = variants.split('/') as [HeadingStylesProps['size'], HeadingStylesProps['weight']]
 
     return (
-        <h1 className={cn([headingStyles({size, weight}), className])}>
+        <h1 className={cn([headingStyles({size, weight}), className])} {...props}>
             {children}
         </h1>
     )
