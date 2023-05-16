@@ -1,10 +1,10 @@
 import { useState } from "react";
 
-import InputEditable from "../ui/editable-input";
-import Heading from "../ui/heading";
-import Button from "../ui/button";
+import InputEditable from "../editable-input";
+import Heading from "../heading";
+import Button from "../button";
 
-import { InputI } from "../interfaces";
+import { InputI } from "../../interfaces";
 
 interface EditTitleProps extends InputI {
     title: string,

@@ -36,6 +36,10 @@ export interface BlogProps extends DivI {
     className?: string
 }
 
+export interface TextAreaI extends React.HTMLAttributes<HTMLTextAreaElement> {
+    className? : string
+}
+
 type User = {
     name: string,
     image: string
