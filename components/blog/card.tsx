@@ -6,7 +6,7 @@ import Heading from "../ui/heading";
 import Image from "next/image";
 import Link from "next/link";
 
-import { BlogPostProps } from "../interfaces";
+import { BlogPostProps } from "../props/props";
 import Tag from "../ui/tag";
 
 export default function BlogCard({ user, blog, className, ...props }: BlogPostProps) {

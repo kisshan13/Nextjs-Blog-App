@@ -1,6 +1,6 @@
 import './globals.css'
 
-import { UserStore } from '@/store/User'
+import { UserStore } from '@/store/user'
 
 import Header from '@/components/header'
 

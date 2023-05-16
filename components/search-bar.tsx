@@ -3,7 +3,7 @@
 import { useState } from "react";
 
 import { cn } from "@/lib/utils";
-import { DivI } from "./interfaces";
+import { DivI } from "./props/props";
 
 import Input from "./ui/input";
 import Button from "./ui/button";

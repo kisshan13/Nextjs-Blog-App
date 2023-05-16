@@ -1,5 +1,5 @@
 import { cn } from "@/lib/utils";
-import { InputI } from "../interfaces";
+import { InputI } from "../props/props";
 
 export default function Input({className, ...props}: InputI) {
     return (

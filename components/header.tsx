@@ -1,10 +1,10 @@
 'use client'
 
-import { useUser } from "@/store/User"
+import { useUser } from "@/store/user"
 import Heading from "./ui/heading"
 import Link from "next/link"
 import { cn } from "@/lib/utils"
-import { HeaderI } from "./interfaces"
+import { HeaderI } from "./props/props"
 
 export default function Header({className, children, ...props}: HeaderI) {
 

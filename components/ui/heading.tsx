@@ -1,6 +1,5 @@
 import { cn } from '@/lib/utils'
 import { cva, VariantProps } from 'cva'
-import { ReactNode } from 'react'
 
 const headingStyles = cva([], {
     variants: {
@@ -23,12 +22,12 @@ const headingStyles = cva([], {
 
 type HeadingStylesProps = VariantProps<typeof headingStyles>
 
-interface HeadingProps extends React.HtmlHTMLAttributes<HTMLHeadingElement> {
-    variants: `${NonNullable<HeadingStylesProps['size']>}/${NonNullable<HeadingStylesProps['weight']>}`,
+export interface HeadingProps extends React.HtmlHTMLAttributes<HTMLHeadingElement> {
+    variants?: `${NonNullable<HeadingStylesProps['size']>}/${NonNullable<HeadingStylesProps['weight']>}`,
     className?: string
 }
 
-export default function Heading({ variants, className, children, ...props }: HeadingProps) {
+export default function Heading({ variants="big/bold", className, children, ...props }: HeadingProps) {
     let [size, weight] = variants.split('/') as [HeadingStylesProps['size'], HeadingStylesProps['weight']]
 
     return (

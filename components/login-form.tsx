@@ -4,14 +4,14 @@ import { useRouter } from 'next/navigation'
 import { FormEvent, useState } from 'react'
 
 import { UserInfo } from "@/store/types"
-import { useUser } from "@/store/User"
+import { useUser } from "@/store/user"
 
 import Input from "./ui/input"
 import Button from "./ui/button"
 import Heading from "./ui/heading"
 import Text from "./ui/text"
 
-import { DivI } from "./interfaces"
+import { DivI } from "./props/props"
 import Loader from "./ui/loader"
 import { cn } from "@/lib/utils"
 

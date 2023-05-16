@@ -2,7 +2,7 @@ import { cn } from "@/lib/utils"
 import Image from "next/image"
 
 import Text from "./ui/text"
-import { UserProfileProps } from "./interfaces"
+import { UserProfileProps } from "./props/props"
 
 export default function UserProfileSML({image, name, className, ...props}: UserProfileProps) {
     return (

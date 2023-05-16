@@ -1,6 +1,6 @@
 import { cn } from "@/lib/utils";
 import Input from "./input"
-import { InputI } from "../interfaces";
+import { InputI } from "../props/props";
 
 export default function InputEditable({ className, ...props }: InputI) {
     return (

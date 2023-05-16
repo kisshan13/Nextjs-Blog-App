@@ -1,5 +1,5 @@
 import { cn } from "@/lib/utils";
-import { TextAreaI } from "../interfaces";
+import { TextAreaI } from "../props/props";
 
 export default function TextArea({ className, ...props }: TextAreaI) {
     return (

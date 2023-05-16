@@ -1,5 +1,5 @@
 import { cn } from "@/lib/utils"
-import { TagProps } from "../interfaces"
+import { TagProps } from "../props/props"
 
 import Text from "./text"
 
