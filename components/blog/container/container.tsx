@@ -1,5 +1,5 @@
 import { cn } from "@/lib/utils"
-import { BlogContainerProps } from "../interfaces"
+import { BlogContainerProps } from "../../interfaces"
 
 export default function BlogContainer({ className, children, ...props }: BlogContainerProps) {
     return (

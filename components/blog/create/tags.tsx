@@ -2,15 +2,15 @@ import { cn } from "@/lib/utils"
 import { useState } from "react"
 
 import { InputI } from "../../interfaces"
-import Tag from "../tag"
-import InputEditable from "../editable-input"
-import Button from "../button"
+import Tag from "../../ui/tag"
+import InputEditable from "../../ui/editable-input"
+import Button from "../../ui/button"
 
 interface EditTagsProps extends InputI {
     tags: string[]
 }
 
-export default function EditTags({ tags, className, ...props }: EditTagsProps) {
+export default function AddTags({ tags, className, ...props }: EditTagsProps) {
 
     const [edit, setEdit] = useState(true)
 

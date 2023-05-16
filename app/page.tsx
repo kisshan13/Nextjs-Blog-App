@@ -1,4 +1,4 @@
-import BlogCard from "@/components/blog/blog-card"
+import BlogCard from "@/components/blog/card"
 import SearchBar from "@/components/search-bar"
 import { fetchPosts } from "@/lib/fetch"
 

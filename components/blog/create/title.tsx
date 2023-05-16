@@ -1,8 +1,8 @@
 import { useState } from "react";
 
-import InputEditable from "../editable-input";
-import Heading from "../heading";
-import Button from "../button";
+import InputEditable from "../../ui/editable-input";
+import Heading from "../../ui/heading";
+import Button from "../../ui/button";
 
 import { InputI } from "../../interfaces";
 
@@ -11,7 +11,7 @@ interface EditTitleProps extends InputI {
     className?: string
 }
 
-export default function EditTitle({ title, className, ...props }: EditTitleProps) {
+export default function AddTitle({ title, className, ...props }: EditTitleProps) {
 
     const [edit, setEdit] = useState(true)
 
